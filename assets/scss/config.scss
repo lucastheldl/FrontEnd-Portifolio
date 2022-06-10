@@ -29,6 +29,17 @@
   flex-basis: 50%;
 }
 
+#download{
+  background: $cor-secundaria;
+  border-radius: 30px;
+  padding: 20px 80px;
+  text-align: center;
+  color: white;
+  transition: transform  0.1s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
 
 .section{
   background: $cor-principal;
@@ -40,8 +51,12 @@
   padding: 100px 0;
   color: white;
   h1{
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     font-size: 40px;
+    z-index: 1;
+  }
+  h4{
+    margin-bottom: 50px;
     z-index: 1;
   }
 }
