@@ -35,9 +35,11 @@
   padding: 20px 80px;
   text-align: center;
   color: white;
-  transition: transform  0.1s;
+  transition: all  0.1s;
   &:hover{
-    transform: scale(1.1);
+    transform: scale(1.5);
+    padding: 30px 90px;
+    border-radius: 40px;
   }
 }
 
