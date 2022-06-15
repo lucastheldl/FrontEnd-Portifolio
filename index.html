@@ -8,6 +8,14 @@
   </head>
   <body>
     <header>
+      <!--Language opts-->
+      <div>
+        <a href="#"><img src="./assets/images/brasil.jpg" alt="" /></a>
+        <a href="#" onclick="googleTranslateElementInit()"
+          ><img src="./assets/images/Gra-Bretanha.png" alt=""
+        /></a>
+      </div>
+      <!--End Language opts-->
       <ul>
         <li>
           <a href="#home">Início</a>
@@ -34,22 +42,10 @@
           <div class="container">
             <h1>Lucas Emanoel F. Silva</h1>
             <h4>Desenvolvedor Front-end, ilustrador e designer gráfico</h4>
-            <div class="row">
               <span class="description">
-                <a
-                  href="./assets/curriculo.txt"
-                  download="curriculo.pdf"
-                  id="download"
-                  >Currículo</a
-                >
+                <a href="./assets/curriculo.txt" download="curriculo.pdf" id="download">Currículo</a>
               </span>
-              <p class="description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                quasi, itaque sequi quo officia modi nam magnam consectetur cum
-                ratione blanditiis perspiciatis tempora. Nostrum, modi! Dolorum
-                voluptatum in magnam molestiae!
-              </p>
-            </div>
+            <h2 id="movetxt">Scroll <br/>&#8595</h2>
           </div>
         </article>
         <!--End Home-->
@@ -99,39 +95,41 @@
                   ><img src="./assets/images/git.png" alt="github"
                 /></a>
               </div>
-              <p class="opt description" id="placeholder">
-                Clique em uma tecnologia para saber mais.
-              </p>
-              <p class="opt description deactive" id="html">
-                HTML é o componente base da web. Ele permite a construção de
-                websites e a inserção de novos conteúdos, como imagens e vídeos,
-                por meio dos hipertextos.
-              </p>
-              <p class="opt description deactive" id="css">
-                O CSS ajuda a estilizar, alinhar, remover e trabalhar no espaço
-                entre elementos de uma página HTML.
-              </p>
-              <p class="opt description deactive" id="javascript">
-                JavaScript é uma linguagem de programação criada, a princípio,
-                para ser executada em navegadores e manipular comportamentos de
-                páginas web.
-              </p>
-              <p class="opt description deactive" id="sass">
-                O SASS é uma linguagem de extensão do CSS, A sua ideia é
-                adicionar recursos especiais como variáveis, mixins, funções
-                dentre outras.
-              </p>
-              <p class="opt description deactive" id="bootstrap">
-                Bootstrap é um framework front-end que fornece estruturas de CSS
-                para a criação de sites e aplicações responsivas de forma rápida
-                e simples.
-              </p>
-              <p class="opt description deactive" id="git">
-                O GitHub é o maior repositório de dados compartilhado do mundo,
-                com 28 milhões de usuários atualmente. É uma plataforma
-                majoritariamente usada por desenvolvedores, pois permite uma
-                hospedagem prática de código-fonte e arquivos em nuvem.
-              </p>
+              <div class="description" id="descriptionArea">
+                <p class="opt" id="placeholder">
+                  Clique em uma tecnologia para saber mais.
+                </p>
+                <p class="opt deactive" id="html">
+                  HTML é o componente base da web. Ele permite a construção de
+                  websites e a inserção de novos conteúdos, como imagens e
+                  vídeos, por meio dos hipertextos.
+                </p>
+                <p class="opt deactive" id="css">
+                  O CSS ajuda a estilizar, alinhar, remover e trabalhar no
+                  espaço entre elementos de uma página HTML.
+                </p>
+                <p class="opt deactive" id="javascript">
+                  JavaScript é uma linguagem de programação criada, a princípio,
+                  para ser executada em navegadores e manipular comportamentos
+                  de páginas web.
+                </p>
+                <p class="opt deactive" id="sass">
+                  O SASS é uma linguagem de extensão do CSS, A sua ideia é
+                  adicionar recursos especiais como variáveis, mixins, funções
+                  dentre outras.
+                </p>
+                <p class="opt deactive" id="bootstrap">
+                  Bootstrap é um framework front-end que fornece estruturas de
+                  CSS para a criação de sites e aplicações responsivas de forma
+                  rápida e simples.
+                </p>
+                <p class="opt deactive" id="git">
+                  O GitHub é o maior repositório de dados compartilhado do
+                  mundo, com 28 milhões de usuários atualmente. É uma plataforma
+                  majoritariamente usada por desenvolvedores, pois permite uma
+                  hospedagem prática de código-fonte e arquivos em nuvem.
+                </p>
+              </div>
             </div>
           </div>
         </article>
@@ -158,13 +156,11 @@
       </section>
     </main>
 
-    <footer class="section row" id="contact">
+    <footer class="section" id="contact">
       <p>
         Email para contato:
         <a href="mailto:lucastheldl@gmail.com">lucastheldl@gmail.com</a>
       </p>
     </footer>
-
-    <script src="./assets/js/functions.js"></script>
   </body>
 </html>
