@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Portifólio|Lucas Emanoel</title>
+    <title>Portifólio | Lucas Emanoel</title>
   </head>
   <body>
     <header>
@@ -59,18 +59,13 @@
           <div class="container">
             <h1>Sobre mim</h1>
             <div class="row">
-              <p id="movetxt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                omnis! Ab fugit libero perferendis vero et corporis, provident
-                rem! Minima consectetur rem vero voluptates vel, voluptatibus
-                eligendi dolores voluptate quod.
-              </p>
+              <img src="./assets/images/laptop.png" alt="Laptop" />
               <p>
                 Meu nome é Lucas Emanoel e amo tecnologia. Comecei a programar
                 em 2018 desenvolvendo jogos na unity, porém, passei a me
                 interessar muito na área de desenvolvimento web em 2021 e foi
                 quando comecei a estudar mais a fundo, realizando cursos e
-                criando projetos por conta própria.<br />
+                criando projetos por conta própria.<br /><br />
                 Atualmente conheço tecnologias voltadas para o Front-end assim
                 como possuo habilidades em design utilizando o photoshop.
               </p>
@@ -84,17 +79,58 @@
           <div class="container">
             <h1>Habilidades</h1>
             <div class="row">
-              <p id="movetxt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                omnis! Ab fugit libero perferendis vero et corporis, provident
-                rem! Minima consectetur rem vero voluptates vel, voluptatibus
-                eligendi dolores voluptate quod.
+              <div class="row break description" id="box">
+                <a href="#skills" onclick="clicked('html')"
+                  ><img src="./assets/images/html.png" alt="html"
+                /></a>
+                <a href="#skills" onclick="clicked('css')"
+                  ><img src="./assets/images/css.png" alt="css"
+                /></a>
+                <a href="#skills" onclick="clicked('javascript')"
+                  ><img src="./assets/images/javascript.png" alt="javascript"
+                /></a>
+                <a href="#skills" onclick="clicked('sass')"
+                  ><img src="./assets/images/sass.png" alt="sass"
+                /></a>
+                <a href="#skills" onclick="clicked('bootstrap')"
+                  ><img src="./assets/images/bootstrap.png" alt="bootstrap"
+                /></a>
+                <a href="#skills" onclick="clicked('git')"
+                  ><img src="./assets/images/git.png" alt="github"
+                /></a>
+              </div>
+              <p class="opt description" id="placeholder">
+                Clique em uma tecnologia para saber mais.
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-                omnis! Ab fugit libero perferendis vero et corporis, provident
-                rem! Minima consectetur rem vero voluptates vel, voluptatibus
-                eligendi dolores voluptate quod.
+              <p class="opt description deactive" id="html">
+                HTML é o componente base da web. Ele permite a construção de
+                websites e a inserção de novos conteúdos, como imagens e vídeos,
+                por meio dos hipertextos.
+              </p>
+              <p class="opt description deactive" id="css">
+                O CSS ajuda a estilizar, alinhar, remover e trabalhar no espaço
+                entre elementos de uma página HTML.
+              </p>
+              <p class="opt description deactive" id="javascript">
+                JavaScript é uma linguagem de programação criada, a princípio,
+                para ser executada em navegadores e manipular comportamentos de
+                páginas web.
+              </p>
+              <p class="opt description deactive" id="sass">
+                O SASS é uma linguagem de extensão do CSS, A sua ideia é
+                adicionar recursos especiais como variáveis, mixins, funções
+                dentre outras.
+              </p>
+              <p class="opt description deactive" id="bootstrap">
+                Bootstrap é um framework front-end que fornece estruturas de CSS
+                para a criação de sites e aplicações responsivas de forma rápida
+                e simples.
+              </p>
+              <p class="opt description deactive" id="git">
+                O GitHub é o maior repositório de dados compartilhado do mundo,
+                com 28 milhões de usuários atualmente. É uma plataforma
+                majoritariamente usada por desenvolvedores, pois permite uma
+                hospedagem prática de código-fonte e arquivos em nuvem.
               </p>
             </div>
           </div>
@@ -109,12 +145,13 @@
               <a class="project"><img src="" alt="" /></a>
               <a class="project"><img src="" alt="" /></a>
               <a class="project"><img src="" alt="" /></a>
-            </div>
-            <div class="row break">
               <a class="project"><img src="" alt="" /></a>
               <a class="project"><img src="" alt="" /></a>
               <a class="project"><img src="" alt="" /></a>
             </div>
+            <a href="https://github.com/lucastheldl?tab=repositories"
+              >Repositórios Github</a
+            >
           </div>
         </article>
         <!--End Projects-->
@@ -122,7 +159,12 @@
     </main>
 
     <footer class="section row" id="contact">
-      <p>Email para contato: <a href="#">Lucastheldl@gmail.com</a></p>
+      <p>
+        Email para contato:
+        <a href="mailto:lucastheldl@gmail.com">lucastheldl@gmail.com</a>
+      </p>
     </footer>
+
+    <script src="./assets/js/functions.js"></script>
   </body>
 </html>

@@ -30,7 +30,7 @@
 }
 
 #download{
-  background: $cor-secundaria;
+  background: linear-gradient($cor-secundaria,$cor-terciaria);
   border-radius: 30px;
   padding: 20px 80px;
   text-align: center;
@@ -63,6 +63,7 @@
   }
 }
 p{
+  font-size: 18px;
   text-align: justify;
   padding: 10px;
 }
