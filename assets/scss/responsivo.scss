@@ -1,9 +1,18 @@
 @media only screen and (max-width: 1150px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-    p{
-      margin-top: 30px;
+
+  #skills,#about{
+    .row {
+      display: flex;
+      flex-direction: column;
+      p{
+        margin-top: 30px;
+      }
+    }
+  }
+  #skills{
+    #box{
+      width: auto;
+      height: 400px;
     }
   }
 }
