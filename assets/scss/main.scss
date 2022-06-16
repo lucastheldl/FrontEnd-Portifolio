@@ -37,6 +37,18 @@
     background: linear-gradient($cor-secundaria, $cor-terciaria);
     clip-path: circle(30% at 90% 20%);
   }
+  #download{
+    background: linear-gradient($cor-secundaria,$cor-terciaria);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 20px 80px;
+    text-align: center;
+    color: white;
+    transition: all  0.1s ease-in-out;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
 }
 #about{
     img {
