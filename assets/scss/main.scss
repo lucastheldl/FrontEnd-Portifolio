@@ -1,11 +1,33 @@
 
 .project{
+  background: $cor-principal;
   width: 250px;
   height: 150px;
-  background: $cor-principal;
   border-radius: 20px;
   transition: transform  0.1s;
   margin: 10px 9px;
+  position: relative;
+  
+  overflow: hidden;
+  div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0 10px;
+    height: 150px;
+   p{
+    text-align: center;
+    text-shadow: 0 0 3px #000000;
+    }
+  }
+  img{
+    max-width: 250px;
+    height: auto;
+  }
 
   &:hover{
     transform: scale(1.1);

@@ -11,27 +11,27 @@
     <header>
       <!--Language opts-->
       <div>
-        <a href="#"><img src="./assets/images/brasil.jpg" alt="brasil" /></a>
-        <a href="#"
+        <a href="#" onclick="ChangeLang('Pt-Br')"><img src="./assets/images/brasil.jpg" alt="brasil" /></a>
+        <a href="#" onclick="ChangeLang('English')"
           ><img src="./assets/images/Gra-Bretanha.png" alt="Gra-Bretanha"
         /></a>
       </div>
       <!--End Language opts-->
       <ul>
         <li>
-          <a href="#home">Início</a>
+          <a href="#home" id="btn-home">Início</a>
         </li>
         <li>
-          <a href="#about">Sobre mim</a>
+          <a href="#about" id="btn-about">Sobre mim</a>
         </li>
         <li>
-          <a href="#skills">Habilidades</a>
+          <a href="#skills" id="btn-skills">Habilidades</a>
         </li>
         <li>
-          <a href="#projects">Projetos</a>
+          <a href="#projects" id="btn-projects">Projetos</a>
         </li>
         <li>
-          <a href="#contact">Contato</a>
+          <a href="#contact" id="btn-contact">Contato</a>
         </li>
       </ul>
     </header>
@@ -42,7 +42,7 @@
         <article class="section" id="home">
           <div class="container">
             <h1>Lucas Emanoel F. Silva</h1>
-            <h4>Desenvolvedor Front-end, ilustrador e designer gráfico</h4>
+            <h4 id="subtitle">Desenvolvedor Front-end, ilustrador e designer gráfico</h4>
               <span class="description">
                 <a href="./assets/curriculo.txt" download="curriculo.pdf" id="download">Currículo</a>
               </span>
@@ -54,10 +54,10 @@
         <!--About-->
         <article class="section-2" id="about">
           <div class="container">
-            <h1>Sobre mim</h1>
+            <h1 id="about-title">Sobre mim</h1>
             <div class="row">
               <img src="./assets/images/laptop.png" alt="Laptop" />
-              <p>
+              <p id ="myInfo">
                 Meu nome é Lucas e eu sou apaixonado por tecnologia. Iniciei minha 
                 jornada na programação em 2018, desenvolvendo jogos na plataforma 
                 Unity, em 2021 comecei a me interessar pelo 
@@ -75,7 +75,7 @@
         <!--skills-->
         <article class="section" id="skills">
           <div class="container">
-            <h1>Habilidades</h1>
+            <h1 id="skills-title">Habilidades</h1>
             <div class="row">
               <div class="row break description" id="box">
                 <a href="#skills" onclick="clicked('html')"
@@ -140,17 +140,17 @@
         <!--Projects-->
         <article class="section-2" id="projects">
           <div class="container">
-            <h1>Projetos</h1>
+            <h1 id="projects-title">Projetos</h1>
             <div class="row break">
-              <a class="project"><img src="" alt="" /></a>
-              <a class="project"><img src="" alt="" /></a>
-              <a class="project"><img src="" alt="" /></a>
-              <a class="project"><img src="" alt="" /></a>
-              <a class="project"><img src="" alt="" /></a>
-              <a class="project"><img src="" alt="" /></a>
+              <a class="project"><img src="./assets/images/ChaosDragMin.jpg" alt="" /><div><h5>Story Site</h5><p> #Html #css #sass #tiltJs #javascript </p></div></a>
+              <a class="project"><img src="" alt="" /><div><h5>Art Portifólio</h5><p> #Html #css #sass #lightboxJs </p></div></a>
+              <a class="project"><img src="" alt="" /><div><h5>E-Comerce</h5><p> #Html #css #Bootstrap</p></div></a>
+              <a class="project"><img src="" alt="" /><div></div></a>
+              <a class="project"><img src="" alt="" /><div></div></a>
+              <a class="project"><img src="" alt="" /><div></div></a>
             </div>
             <a href="https://github.com/lucastheldl?tab=repositories"
-              >Repositórios Github</a
+              id="repositorios">Repositórios Github</a
             >
           </div>
         </article>
@@ -159,7 +159,7 @@
     </main>
 
     <footer class="section" id="contact">
-      <p>
+      <p id="email">
         Email para contato:
         <a href="mailto:lucastheldl@gmail.com">lucastheldl@gmail.com</a>
       </p>
