@@ -50,7 +50,7 @@ function ChangeLang(language) {
 
     info.innerHTML =
       "My name is Lucas and I am passionate about technology. I started my programming journey in 2018, developing games on the Unity platform, in 2021 I started to get interested in Web Development and it was from that point onwards that I started to delve into the area, creating projects, taking courses and studying on my own. I currently have knowledge of technologies aimed at the Front-end, as well as mastering design skills using Photoshop.";
-    placeholder.innerHTML = "Click in a item to show more";
+    placeholder.innerHTML = "Click in an item to show more";
 
     html.innerHTML =
       "HTML is the base component of the web. It allows the construction of websites and the insertion of new content, such as images and videos, through hypertexts.";
