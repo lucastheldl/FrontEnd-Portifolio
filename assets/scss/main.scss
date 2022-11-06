@@ -12,16 +12,16 @@
   div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     position: absolute;
     top: 0;
     left: 0;
     padding: 10px 0 10px;
-    height: 150px;
-   p{
-    text-align: center;
-    text-shadow: 0 0 3px #000000;
+    height: 100%;
+    width: 100%;
+    h5,p{
+      text-shadow: 2px 2px 2px #000000;
     }
   }
   img{
@@ -31,6 +31,7 @@
 
   &:hover{
     transform: scale(1.1);
+    cursor: pointer;
   }
 }
 
@@ -113,6 +114,9 @@
       z-index: 1;
       &:hover{
         transform: scale(1.1);
+      }
+      p{
+        text-align: center;
       }
     }
   }

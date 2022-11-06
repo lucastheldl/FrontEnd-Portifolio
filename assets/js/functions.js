@@ -10,30 +10,31 @@ function clicked(id) {
   }
 }
 function ChangeLang(language) {
-  let btnHome = document.getElementById("btn-home");
-  let btnAbout = document.getElementById("btn-about");
-  let btnSkills = document.getElementById("btn-skills");
-  let btnProjects = document.getElementById("btn-projects");
-  let btnContact = document.getElementById("btn-contact");
+  const btnHome = document.getElementById("btn-home");
+  const btnAbout = document.getElementById("btn-about");
+  const btnSkills = document.getElementById("btn-skills");
+  const btnProjects = document.getElementById("btn-projects");
+  const btnContact = document.getElementById("btn-contact");
 
-  let subtitle = document.getElementById("subtitle");
-  let download = document.getElementById("download");
-  let about = document.getElementById("about-title");
-  let skills = document.getElementById("skills-title");
-  let project = document.getElementById("projects-title");
+  const subtitle = document.getElementById("subtitle");
+  const download = document.getElementById("download");
+  const about = document.getElementById("about-title");
+  const skills = document.getElementById("skills-title");
+  const project = document.getElementById("projects-title");
 
-  let info = document.getElementById("myInfo");
-  let placeholder = document.getElementById("placeholder");
+  const info = document.getElementById("myInfo");
+  const placeholder = document.getElementById("placeholder");
 
-  let html = document.getElementById("html");
-  let css = document.getElementById("css");
-  let sass = document.getElementById("sass");
-  let javascript = document.getElementById("javascript");
-  let bootstrap = document.getElementById("bootstrap");
-  let git = document.getElementById("git");
+  const html = document.getElementById("html");
+  const css = document.getElementById("css");
+  const sass = document.getElementById("sass");
+  const javascript = document.getElementById("javascript");
+  const react = document.getElementById("react");
+  const bootstrap = document.getElementById("bootstrap");
+  const git = document.getElementById("git");
 
-  let repo = document.getElementById("repositorios");
-  let email = document.getElementById("email");
+  const repo = document.getElementById("repositorios");
+  const email = document.getElementById("email");
 
   if (language === "English") {
     btnHome.innerHTML = "Home";
@@ -50,7 +51,7 @@ function ChangeLang(language) {
 
     info.innerHTML =
       "My name is Lucas and I am passionate about technology. I started my programming journey in 2018, developing games on the Unity platform, in 2021 I started to get interested in Web Development and it was from that point onwards that I started to delve into the area, creating projects, taking courses and studying on my own. I currently have knowledge of technologies aimed at the Front-end, as well as mastering design skills using Photoshop.";
-    placeholder.innerHTML = "Click in a item to show more";
+    placeholder.innerHTML = "Click in an item to show more";
 
     html.innerHTML =
       "HTML is the base component of the web. It allows the construction of websites and the insertion of new content, such as images and videos, through hypertexts.";
@@ -60,6 +61,8 @@ function ChangeLang(language) {
       "SASS is a CSS extension language, Its idea is to add special features like variables, mixins, functions among others.";
     javascript.innerHTML =
       "JavaScript is a programming language created, in principle, to run in browsers and manipulate web page behaviors.";
+    react.innerHTML =
+      "React is a library created to build screens declaratively. Or create web applications: React creates web applications to be in browsers, whether they are for desktop, mobile or any other device.";
     bootstrap.innerHTML =
       "Bootstrap is a front-end framework that provides CSS frameworks for creating responsive websites and applications quickly and simply.";
     git.innerHTML =
